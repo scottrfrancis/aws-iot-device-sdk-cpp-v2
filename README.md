@@ -15,10 +15,10 @@ This SDK is built on the AWS Common Runtime, a collection of libraries
 cross-platform, high-performance, secure, and reliable. The libraries are bound
 to C++ by the [aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) package.
 
-*__Jump To:__*
+__Jump To:__
 
 * [Installation](#Installation)
-* [Samples](samples)
+* [Samples](./samples)
 * [Getting Help](#Getting-Help)
 * [FAQ](FAQ.md)
 * [Giving Feedback and Contributions](#Giving-Feedback-and-Contributions)
@@ -26,10 +26,12 @@ to C++ by the [aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) package.
 ## Installation
 
 ### Minimum Requirements
-
 * C++ 11 or higher
 * CMake 3.1+
-* Clang 3.9+ or GCC 4.4+ or MSVC 2015+
+* Clang 3.9+ or GCC 4.8+ or MSVC 2015+
+
+[Step-by-step instructions](./PREREQUISITES.md)
+
 
 ### Build from source
 
@@ -67,7 +69,7 @@ Due to maximum path length limitations in the Windows API, we recommend cloning 
 
 ## Samples
 
-[Samples README](samples)
+[Samples README](./samples)
 
 ## Getting Help
 
@@ -76,6 +78,7 @@ The best way to interact with our team is through GitHub. You can [open an issue
 Please make sure to check out our resources too before opening an issue:
 
 * Our [FAQ](FAQ.md)
+* [API Docs](https://aws.github.io/aws-iot-device-sdk-cpp-v2/)
 * Our [Developer Guide](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) ([source](https://github.com/awsdocs/aws-iot-docs))
 * Check for similar [Issues](https://github.com/aws/aws-iot-device-sdk-cpp-v2/issues)
 * [AWS IoT Core Documentation](https://docs.aws.amazon.com/iot/)
